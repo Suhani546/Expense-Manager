@@ -71,6 +71,7 @@ const getAllExpenses = async () => {
         </div>
         <div className='grid gap-5'>
         <h2 className='font-bold text-lg'>Latest Budgets</h2>
+          <CreateBudget/>
           {budgetList.map((budget,index) => (
             <Budgetitem budget={budget} key={index}/>
           ))}
