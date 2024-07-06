@@ -9,6 +9,7 @@ import BarChartDashboard from './_components/BarChartDashboard';
 import Budgetitem from './budgets/_components/Budgetitem';
 import ExpenseListTable from './expenses/_components/ExpenseListTable';
 import { ProtectedRoute } from '@/app/_components/ProtectedRoute';
+import CreateBudget from './budgets/_components/CreateBudget';
 
 function Dashboard() {
 
