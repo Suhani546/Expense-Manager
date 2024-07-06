@@ -82,7 +82,7 @@ function ExpensesScreen({params}) {
     <div className='p-10'>
       <h2 className='text-2xl font-bold mb-5 flex justify-between cursor-pointer' onClick={() => router.back()}>
       🡠 My Expenses
-       <div className='flex gap-2 items-center'>
+       <div className='flex gap-2 items-center' onClick={(e) => e.stopPropagation()}> 
        <EditBudget budgetInfo = {budgetInfo}
         refreshData={() => getBudgetInfo()}
        />
